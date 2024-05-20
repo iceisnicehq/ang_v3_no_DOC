@@ -1,0 +1,26 @@
+:host {
+  nav {
+    display: flex;
+    justify-content: center;
+  }
+  .button {
+    width: 40%;
+    margin: 30px;
+    box-shadow: inset 0 1px 0 0 #ffffff;
+    border: 1px solid #dcdcdc;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    color: black;
+    box-shadow: 0 2px 4px rgb(23, 24, 24);
+    text-align: center;
+    text-decoration: none;
+  }
+  .activebutton {
+    background: #3f3f3f;
+    border: 1px solid #fc440c;
+    color: #ffffff;
+    box-shadow: 0 2px 4px rgb(196, 16, 3);
+  }
+}
